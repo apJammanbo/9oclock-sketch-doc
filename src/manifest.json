@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "junsu",
+      "identifier": "9oclock-sketch-doc.junsu-identifier",
+      "script": "./junsu.js"
+    }
+  ],
+  "menu": {
+    "title": "sketch-doc",
+    "items": ["9oclock-sketch-doc.junsu-identifier"]
+  }
+}
